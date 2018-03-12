@@ -1,0 +1,64 @@
+body {
+width:100%;
+}
+
+.container{
+  max-width: 920px;
+  margin:auto;
+}
+
+.clearfix:before, .clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.name h1{
+  float:left;
+  margin-right: 3em;
+}
+
+.name img{
+  max-width:320px;
+}
+.city{
+  width: 100%;
+}
+.city h1{
+  display: block;
+  width: 100%;
+}
+.city img{
+  max-width:320px;
+  width:100%;
+    float: left;
+    margin-right: 1em;
+}
+
+.city p{
+
+}
+
+.history{
+  margin-bottom: 3em;
+}
+
+.history img{
+  max-height: 250px;
+
+}
+
+.history:nth-of-type(even) img {
+  float:right;
+  margin-left: 2em;
+}
+
+.history:nth-of-type(odd) img {
+  float:left;
+  margin-right: 2em;
+}
