@@ -45,7 +45,7 @@ table, th, td {
 }
 
 .history{
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 
 .history img{
@@ -55,10 +55,10 @@ table, th, td {
 
 .history:nth-of-type(even) img {
   float:right;
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
 .history:nth-of-type(odd) img {
   float:left;
-  margin-right: 2em;
+  margin-right: 1em;
 }
